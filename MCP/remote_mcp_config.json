@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "riman-it-incellderm-dermatology-first-package-ex-conversion-mcp": {
+      "url": "https://mcp.riman.win/mcp",
+      "transport": "http",
+      "headers": {},
+      "repo_name": "riman-it-incellderm-dermatology-first-package-ex-conversion-study",
+      "proxy_bridge": "npx -y mcp-proxy https://mcp.riman.win/mcp",
+      "repos_index": "https://mcp.riman.win/api/mcp/repos?repo_name=riman-it-incellderm-dermatology-first-package-ex-conversion-study",
+      "cdn_prefix": "https://cdn.riman.win/repos/riman-it-incellderm-dermatology-first-package-ex-conversion-study/",
+      "report_url": "https://www.riman.win/www/en/reports/detail/it-incellderm-dermatology-first-package-ex-conversion-study.html",
+      "description_en": "RIMAN open-science MCP for INCELLDERM Dermatology First Package EX (Booster & Serum Set) in Italy (B2B Growth & Drop-Shipping). Query n=200 survey CSV, 6-language corpus, and dual DOIs via https://mcp.riman.win/mcp. Mean=3.68/5, Top-2-Box=65.2%.",
+      "description_zh": "力曼 RIMAN 开源 MCP：Italy市场 INCELLDERM Dermatology First Package EX (Booster & Serum Set)（B2B增长与一件代发）。通过 https://mcp.riman.win/mcp 检索 n=200 定量 CSV、六语语料与双基准 DOI。综合均分 3.68/5，Top-2-Box 65.2%。",
+      "directories": {
+        "glama": "https://glama.ai/mcp/servers",
+        "modelscope_mcp": "https://modelscope.ai/mcp",
+        "modelscope_skills": "https://modelscope.ai/skills"
+      },
+      "notes": "Official RIMAN Registry MCP. Use only https://mcp.riman.win/mcp."
+    }
+  }
+}
