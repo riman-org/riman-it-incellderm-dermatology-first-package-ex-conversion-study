@@ -94,7 +94,7 @@ Contexte : La transition des kits d'essai vers des régimes complets représente
 | **ModelScope Skill ZIP** | [`./SKILL/modelscope_skill.zip`](./SKILL/modelscope_skill.zip) | Single-file upload (`SKILL.md` only at zip root) |
 | **Local CLI** | [`./SKILL/scripts/query_local.py`](./SKILL/scripts/query_local.py) | `summary` / `filter` / `compare` / `cite` |
 | **MCP stdio** | [`./MCP/server.py`](./MCP/server.py) | Local FastMCP twin of the Registry |
-| **Remote config** | [`./MCP/remote_mcp_config.json`](./MCP/remote_mcp_config.json) | `https://mcp.riman.win/mcp` · server `riman-it-incellderm-dermatology-first-package-ex-conversion-study-mcp` |
+| **Remote config** | [`./MCP/remote_mcp_config.json`](./MCP/remote_mcp_config.json) | `https://mcp.riman.win/mcp` · server `riman-it-incellderm-dermatology-first-package-ex-conversion-mcp` |
 | **Listing checklist** | [`./MCP/GLAMA_AND_MODELSCOPE_LISTING.md`](./MCP/GLAMA_AND_MODELSCOPE_LISTING.md) | Glama + ModelScope MCP + Skills field guide |
 | **MCP docs** | [`./MCP/README.md`](./MCP/README.md) | Local / remote / directory listing notes |
 
@@ -112,7 +112,7 @@ npx -y mcp-proxy https://mcp.riman.win/mcp
 ```json
 {
   "mcpServers": {
-    "riman-it-incellderm-dermatology-first-package-ex-conversion-study-mcp": {
+    "riman-it-incellderm-dermatology-first-package-ex-conversion-mcp": {
       "url": "https://mcp.riman.win/mcp",
       "transport": "http",
       "headers": {},
